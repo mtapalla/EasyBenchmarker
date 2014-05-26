@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyBenchmarker", "EasyBenchmarker\EasyBenchmarker.csproj", "{7D67C9DD-4342-4364-9D5A-E3EF5E649B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedSquadLib", "..\..\..\..\Libraries\SpeedSquadLib\SpeedSquadLib\SpeedSquadLib.csproj", "{A1267B3E-A3ED-4731-BBFF-A242A5EB1D0A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.it.agilent.com:8080/tfs/emg
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EasyBenchmarker\\EasyBenchmarker.csproj
+		SccProjectName1 = EasyBenchmarker
+		SccLocalPath1 = EasyBenchmarker
+		SccProjectUniqueName2 = ..\\..\\..\\..\\Libraries\\SpeedSquadLib\\SpeedSquadLib\\SpeedSquadLib.csproj
+		SccProjectName2 = ../../../../Libraries/SpeedSquadLib/SpeedSquadLib
+		SccLocalPath2 = ..\\..\\..\\..\\Libraries\\SpeedSquadLib\\SpeedSquadLib
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D67C9DD-4342-4364-9D5A-E3EF5E649B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D67C9DD-4342-4364-9D5A-E3EF5E649B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D67C9DD-4342-4364-9D5A-E3EF5E649B7D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7D67C9DD-4342-4364-9D5A-E3EF5E649B7D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7D67C9DD-4342-4364-9D5A-E3EF5E649B7D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7D67C9DD-4342-4364-9D5A-E3EF5E649B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D67C9DD-4342-4364-9D5A-E3EF5E649B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D67C9DD-4342-4364-9D5A-E3EF5E649B7D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7D67C9DD-4342-4364-9D5A-E3EF5E649B7D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7D67C9DD-4342-4364-9D5A-E3EF5E649B7D}.Release|x86.ActiveCfg = Release|Any CPU
+		{A1267B3E-A3ED-4731-BBFF-A242A5EB1D0A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A1267B3E-A3ED-4731-BBFF-A242A5EB1D0A}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A1267B3E-A3ED-4731-BBFF-A242A5EB1D0A}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A1267B3E-A3ED-4731-BBFF-A242A5EB1D0A}.Debug|x86.ActiveCfg = Debug|x86
+		{A1267B3E-A3ED-4731-BBFF-A242A5EB1D0A}.Debug|x86.Build.0 = Debug|x86
+		{A1267B3E-A3ED-4731-BBFF-A242A5EB1D0A}.Release|Any CPU.ActiveCfg = Release|x86
+		{A1267B3E-A3ED-4731-BBFF-A242A5EB1D0A}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A1267B3E-A3ED-4731-BBFF-A242A5EB1D0A}.Release|Mixed Platforms.Build.0 = Release|x86
+		{A1267B3E-A3ED-4731-BBFF-A242A5EB1D0A}.Release|x86.ActiveCfg = Release|x86
+		{A1267B3E-A3ED-4731-BBFF-A242A5EB1D0A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
