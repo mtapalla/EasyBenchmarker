@@ -23,7 +23,9 @@ This app is used to benchmark measurements with the instrument set or loaded to 
 
 
 2. Apply additional desired settings
+
   ![alt text](http://repo.tapalla.com/images/benchmarker1.png "Easy Benchmarker")
+  
   * __Data Type__ This utility allows the data to be returned as binary data (REAL,32) instead of ASCII. SCPI queries that return relatively large data may benefit in terms of speed using binary data.
   * __Disable Display__ Turning off the instrument's display during testing can yield speed improvements
   * __Show Return Data__ If benchmarking a query, print out the last iteration's returned results  
