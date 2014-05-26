@@ -5,10 +5,9 @@ Light-weight, standalone app for easy benchmarking of SCPI instruments.
 
 ![alt text](http://repo.tapalla.com/images/benchmarker0.png "Easy Benchmarker")
 
-This app is used to benchmark measurements with the instrument set at a specific state.
+This app is used to benchmark measurements with the instrument set or loaded to a specific state.
 
-### Example
-**Benchmarking ACP Measurements**
+### Instructions
 
 1. Populate the fields
   * __VISA Address__ The VISA address of the instrument (e.g. tcpip0::ip_address::instr)
@@ -18,7 +17,11 @@ This app is used to benchmark measurements with the instrument set at a specific
     
     For Option (2), check the box and point to the path of the state file on the host PC
   * __Benchmark Iterations__ Number of iterations the benchmark will be run. The __Measurement Time__ result at the bottom will be the average time of all the iterations.
-  * __SCPI to Benchmark__ The SCPI command to benchmark. For this example we will be benchmarking `READ:ACP?`
+  * __SCPI to Benchmark__ The SCPI command to benchmark. Single or combined commands can be benchmarked, e.g.
+    * Benchmark ACP measurements: `READ:ACP?`
+    * Benchmark sweep speeds: `INIT:IMM;*OPC?`
+
+
 2. Apply additional desired settings
   ![alt text](http://repo.tapalla.com/images/benchmarker1.png "Easy Benchmarker")
   * __Data Type__ This utility allows the data to be returned as binary data (REAL,32) instead of ASCII. SCPI queries that return relatively large data may benefit in terms of speed using binary data.
